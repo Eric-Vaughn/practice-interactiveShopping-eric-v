@@ -4,6 +4,7 @@ const itemList = document.getElementById("item-list");
 
 // When a click happens...
 document.addEventListener("click", (e) => {
+    // Add item
     if (e.target.textContent === "Add") {
         const li = document.createElement("li");
 
